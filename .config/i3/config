@@ -178,5 +178,6 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh
 for_window [class=".*"] border pixel 2
 gaps inner 15
 
-# execs
+# startup execs
 exec_always --no-startup-id feh --bg-scale --no-xinerama --randomize ~/Pictures/wallpapers
+exec --no-startup-id mpd ~/.config/mpd/mpd.conf
