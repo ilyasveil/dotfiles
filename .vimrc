@@ -1,4 +1,6 @@
-set rtp+=/usr/share/powerline/bindings/vim/ " Vim powerline binding
+" set rpt+=/usr/share/vim/addons/               " Ubuntu / WSL Powerline binding
+" set rtp+=/usr/share/powerline/bindings/vim/   " Arch Powerline binding
+
 set laststatus=2 " Powerline always visible
 set t_Co=256 " 256-color mode
 syntax on " Syntax highlighting
