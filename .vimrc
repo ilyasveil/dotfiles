@@ -1,4 +1,4 @@
-" set rpt+=/usr/share/vim/addons/               " Ubuntu / WSL Powerline binding
+" set rtp+=/usr/share/vim/addons/               " Ubuntu / WSL Powerline binding
 " set rtp+=/usr/share/powerline/bindings/vim/   " Arch Powerline binding
 
 set laststatus=2 " Powerline always visible
