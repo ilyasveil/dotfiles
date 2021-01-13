@@ -1,0 +1,8 @@
+add_newline = false
+
+[character]
+success_symbol = "[❯](#5e81ac)[❯](#81a1c1)[❯](#88c0d0) "
+error_symbol = "[❯❯❯](red) "
+
+[line_break]
+disabled = true
