@@ -12,12 +12,13 @@ set autoindent            " Auto indents
 set tabstop=2             " Tab spacing
 set shiftround            " Always in/outdent to tabstop
 set expandtab             " Use spaces insead of tabs
+set showtabline=2         " Tabline always visible
 
 if (has("termguicolors")) " Tell terminal to use the damn colors!
   set termguicolors
 endif
 
-" Add vim-plug if needed
+" Add vim-plug if needed and install plugins
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -39,3 +40,4 @@ colorscheme nord " Set after loading theme from plugin
 
 let g:rainbow_active = 1 " Turn on rainbow parentheses
 let g:airline_powerline_fonts = 1 " Generate powerline symbols
+let g:airline#extensions#tabline#enabled = 1 " Use airline for the tabline
